@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 import Utiliti.ExcelUtilites;
 
 public class Login {
-	@Test(dataProvider = "getTextData2",dataProviderClass = ExcelUtilites.class)
+	@Test(dataProvider = "getTextData1",dataProviderClass = ExcelUtilites.class)
 	public void loginTest(Map<String, String> ma) throws IOException {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\win10\\eclipse-workspace\\Sample\\Executables\\chromedriver.exe");
